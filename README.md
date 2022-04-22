@@ -21,6 +21,7 @@ COMMAND should be one of:
    single_colorcycle
    multi_static
    multi_breathing
+   rainbow_cycle
    red
    green
    blue
@@ -45,6 +46,7 @@ sudo rogauracore single_static 00ff00
 sudo rogauracore single_static ffff00
 sudo rogauracore multi_static ff0000 ffff00 00ff00 00ffff
 sudo rogauracore single_colorcycle 1
+sudo rogauracore rainbow_cycle 2
 ```
 
 If your keyboard does not respond to `rogauracore`, it may help to
